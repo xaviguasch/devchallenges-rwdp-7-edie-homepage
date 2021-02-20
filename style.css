@@ -180,3 +180,45 @@ section {
   background-color: transparent;
   color: #2d9cdb;
 }
+
+/* Team */
+.team {
+}
+
+.team-copy-section {
+  width: 80%;
+}
+
+.team-subheader {
+  font-size: 1.125rem;
+  color: #eb5757;
+}
+
+.team-header {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 0.7em;
+}
+.team-copy-text {
+  color: #4f4f4f;
+  font-weight: 400;
+}
+
+.team-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em auto 3em;
+}
+
+.team-gallery-col-1 {
+  width: 57%;
+}
+.team-gallery-col-2 {
+  align-items: center;
+  width: 40%;
+}
+.team-person1 {
+  width: 85%;
+  margin-bottom: -0.3em;
+}
