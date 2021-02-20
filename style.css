@@ -37,6 +37,12 @@ section {
   border-radius: 0.7em;
 }
 
+.headline {
+  font-size: 1.5rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
 /* ----------------------------------------------------- */
 /* SECTIONS */
 /* ----------------------------------------------------- */
@@ -52,12 +58,6 @@ section {
 .title-area__subtitle {
   font-size: 0.75rem;
   color: #2d9cdb;
-}
-
-.headline {
-  font-size: 1.5rem;
-  line-height: 1.6;
-  font-weight: 500;
 }
 
 .hero__contact-area {
@@ -221,4 +221,34 @@ section {
 .team-person1 {
   width: 85%;
   margin-bottom: -0.3em;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-bottom: 8em;
+}
+.testimonials__copy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.testimonials__image {
+  width: 25%;
+  border-radius: 0.7em;
+}
+
+.testimonials__person {
+  width: 60%;
+  margin-left: 1.5em;
+}
+
+.testimonials__person-name {
+  font-size: 1.5rem;
+}
+
+.testimonials__person-position {
+  font-size: 1.125rem;
+  color: #828282;
 }
