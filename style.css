@@ -25,9 +25,8 @@ section {
 }
 
 .inside-container {
-  margin: 3em auto;
+  margin: 1.3em auto;
   width: 75%;
-  border: 1px red solid;
 }
 
 .big-area__image {
@@ -88,7 +87,8 @@ section {
   border-radius: 0.7em;
 }
 
-#email1 {
+#email1,
+#email2 {
   width: 80%;
   border: none;
   background-color: transparent;
@@ -114,7 +114,6 @@ section {
 /* Services */
 
 .services {
-  border: 1px green solid;
 }
 
 .services__specialization {
@@ -251,4 +250,63 @@ section {
 .testimonials__person-position {
   font-size: 1.125rem;
   color: #828282;
+}
+
+/* Footer */
+footer {
+  background-color: #100e1d;
+  color: #f2f2f2;
+}
+
+.footer-container {
+  padding: 1.75em 2.1em;
+  margin-bottom: 5em;
+}
+
+.footer__main {
+}
+
+.footer__list {
+  list-style: none;
+  margin-bottom: 3em;
+}
+
+.footer__list__item {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2.25;
+}
+
+.footer__socials {
+  margin-bottom: 4em;
+}
+
+.footer__logo {
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+
+.footer__social-list {
+  display: flex;
+  margin-left: -0.8em;
+}
+
+.footer__social-item {
+  list-style: none;
+  margin-left: 0.8em;
+}
+.footer__social-link {
+  color: #f2f2f2;
+}
+
+.fab {
+  font-size: 1.8rem;
+}
+
+.footer__signature {
+  font-size: 0.875rem;
+  display: block;
+  text-align: center;
+  margin: 2em auto 0;
+  padding-bottom: 1em;
 }
