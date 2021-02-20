@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.container {
+  padding: 0 0.6em;
+}
+
+/* ----------------------------------------------------- */
+/* SECTIONS */
+/* ----------------------------------------------------- */
+
+/* Header */
+.header {
+}
+
+/* Hero */
+.hero {
+  border: 1px red solid;
+}
+
+.title-area {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.title-area__subtitle {
+  font-size: 0.75rem;
+  color: #2d9cdb;
+}
+
+.headline {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.hero__title-area__image {
+  margin: 0.5em auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.7em;
+}
+
+.hero__contact-area {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.hero__contact-area .headline {
+  width: 75%;
+  margin: 0.6em 0;
+}
+
+.hero__contact-area__copy {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #4f4f4f;
+  line-height: 1.6;
+}
+
+.form-area {
+  margin: 1.5em 0;
+}
+
+.form-area-label {
+  font-size: 0.625rem;
+  color: #828282;
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 0.7em;
+}
+
+#email1 {
+  width: 80%;
+  border: none;
+  background-color: transparent;
+  padding: 1em 1.5em;
+  color: #a32626;
+  /* color placeholder doesn't apply WHY????????*/
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form__contact-btn {
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+  color: #f2f2f2;
+  background-color: #2d9cdb;
+  margin: 0.2em;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  border: none;
+}
+
+/* Services */
+
+.services {
+  margin: 5em auto;
+  width: 75%;
+}
+
+.services .title-area {
+  margin-left: 0;
+}
