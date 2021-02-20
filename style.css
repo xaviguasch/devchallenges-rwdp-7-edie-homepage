@@ -50,6 +50,33 @@ section {
 .header {
 }
 
+.header__container {
+  padding: 1.5em 0em;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 800;
+  /* line-height: 2; */
+}
+
+.open-nav {
+  border: 0;
+  background: 0;
+  color: #000000;
+  cursor: pointer;
+  padding: 0.5em;
+  margin-left: auto;
+  font-size: 1.1em;
+}
+
+.header__nav {
+  display: none;
+}
+
 /* Hero */
 .hero {
 }
