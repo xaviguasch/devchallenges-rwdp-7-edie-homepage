@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
@@ -31,16 +32,16 @@
 
     <main class="container">
       <section class="hero">
-        <div class="title-area">
+        <div class="title-area inside-container">
           <span class="title-area__subtitle">Unhappy with your website?</span>
           <h2 class="headline">We create beautiful and fast web services</h2>
         </div>
         <img
           src="./resources/heroImage.jpg"
           alt="employees' meeting"
-          class="hero__title-area__image"
+          class="big-area__image"
         />
-        <div class="hero__contact-area">
+        <div class="hero__contact-area inside-container">
           <h2 class="headline">Story, emotion and purpose</h2>
           <p class="hero__contact-area__copy">
             We help transform your ideas to real world applications that will outperform
@@ -67,11 +68,11 @@
       </section>
 
       <section class="services">
-        <div class="title-area">
+        <div class="title-area inside-container">
           <h3 class="headline">We offer high demand services</h3>
         </div>
         <div class="services__specializations">
-          <div class="services__specialization">
+          <div class="services__specialization inside-container">
             <div class="symbol"></div>
             <h2 class="specialization-title">UI/UX Design</h2>
             <p>
@@ -80,16 +81,18 @@
             </p>
             <button class="specialization-btn">Get Started</button>
           </div>
-          <div class="services__specialization">
-            <div class="symbol"></div>
-            <h2 class="specialization-title">Front End</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam
-              mollitia eum repellat ducimus veniam?
-            </p>
-            <button class="specialization-btn action-btn">Get Started</button>
+          <div class="services__specialization frontend-specialization">
+            <div class="inside-container">
+              <div class="symbol"></div>
+              <h2 class="specialization-title">Front End</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam
+                mollitia eum repellat ducimus veniam?
+              </p>
+              <button class="specialization-btn action-btn">Get Started</button>
+            </div>
           </div>
-          <div class="services__specialization">
+          <div class="services__specialization inside-container">
             <div class="symbol"></div>
             <h2 class="specialization-title">Back End</h2>
             <p>
@@ -102,12 +105,16 @@
       </section>
 
       <section class="our-works">
-        <div class="title-area">
-          <h3 class="title-area__title">Good design means good business</h3>
+        <div class="title-area inside-container">
+          <h3 class="headline">Good design means good business</h3>
         </div>
         <div class="our-works__portfolio">
           <div class="our-works__portfolio__example">
-            <img src="./resources/smarthome.jpg" alt="smart home dashboard" />
+            <img
+              class="big-area__image"
+              src="./resources/smarthome.jpg"
+              alt="smart home dashboard"
+            />
             <p class="our-works__portfolio__example__description">
               Full stack application
             </p>
@@ -115,26 +122,38 @@
           </div>
 
           <div class="our-works__portfolio__example">
-            <img src="./resources/onboard.png" alt="onboard application" />
+            <img
+              class="big-area__image"
+              src="./resources/onboard.png"
+              alt="onboard application"
+            />
             <p class="our-works__portfolio__example__description">UI/UX design</p>
             <p class="our-works__portfolio__example__title">Onboard application</p>
           </div>
 
           <div class="our-works__portfolio__example">
-            <img src="./resources/booking.png" alt="booking system" />
+            <img
+              class="big-area__image"
+              src="./resources/booking.png"
+              alt="booking system"
+            />
             <p class="our-works__portfolio__example__description">Mobile application</p>
             <p class="our-works__portfolio__example__title">Booking system</p>
           </div>
 
           <div class="our-works__portfolio__example">
-            <img src="./resources/juice-product.png" alt="Juice product homepage" />
+            <img
+              class="big-area__image"
+              src="./resources/juice-product.png"
+              alt="Juice product homepage"
+            />
             <p class="our-works__portfolio__example__description">
               Front End application
             </p>
             <p class="our-works__portfolio__example__title">Juice product homepage</p>
           </div>
         </div>
-        <button class="see-more">See more</button>
+        <button class="see-more-btn">see more</button>
       </section>
 
       <section class="team"></section>

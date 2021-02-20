@@ -15,8 +15,26 @@ body {
   font-weight: 500;
 }
 
+section {
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
 .container {
   padding: 0 0.6em;
+}
+
+.inside-container {
+  margin: 3em auto;
+  width: 75%;
+  border: 1px red solid;
+}
+
+.big-area__image {
+  margin: 0.5em auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.7em;
 }
 
 /* ----------------------------------------------------- */
@@ -29,12 +47,6 @@ body {
 
 /* Hero */
 .hero {
-  border: 1px red solid;
-}
-
-.title-area {
-  margin: 0 auto;
-  width: 75%;
 }
 
 .title-area__subtitle {
@@ -48,21 +60,7 @@ body {
   font-weight: 500;
 }
 
-.hero__title-area__image {
-  margin: 0.5em auto;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.7em;
-}
-
 .hero__contact-area {
-  margin: 0 auto;
-  width: 75%;
-}
-
-.hero__contact-area .headline {
-  width: 75%;
-  margin: 0.6em 0;
 }
 
 .hero__contact-area__copy {
@@ -116,10 +114,69 @@ body {
 /* Services */
 
 .services {
-  margin: 5em auto;
-  width: 75%;
+  border: 1px green solid;
 }
 
-.services .title-area {
-  margin-left: 0;
+.services__specialization {
+  padding: 1em 0;
+}
+
+.specialization-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+
+.services__specialization p {
+  color: #4f4f4f;
+  font-weight: 400;
+}
+
+.specialization-btn {
+  margin: 2em 0;
+  border-radius: 0.7em;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #e0e0e0;
+  color: #828282;
+  font-weight: 500;
+}
+
+.frontend-specialization {
+  border-radius: 0.7em;
+  -webkit-box-shadow: -6px 0px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px 0px 36px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -6px 0px 36px -3px rgba(0, 0, 0, 0.75);
+}
+
+.action-btn {
+  background-color: #2d9cdb;
+  color: #ffffff;
+}
+
+/* Our works */
+.our-works__portfolio {
+  margin: 3em auto;
+}
+
+.our-works__portfolio__example {
+  margin-top: 1.5em;
+}
+
+.our-works__portfolio__example__description {
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #828282;
+}
+
+.our-works__portfolio__example__title {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.see-more-btn {
+  font-size: 1.125rem;
+  border: none;
+  background-color: transparent;
+  color: #2d9cdb;
 }
