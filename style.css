@@ -337,3 +337,178 @@ footer {
   margin: 2em auto 0;
   padding-bottom: 1em;
 }
+
+/* ----------------------------------------------------- */
+/* MEDIA QUERIES */
+/* ----------------------------------------------------- */
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+
+  .title-area {
+    width: 48%;
+    margin: 0em 7em 1em;
+  }
+
+  .headline {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+
+  .title-area__subtitle {
+    display: block;
+    font-size: 0.6rem;
+    margin-bottom: 0.8em;
+  }
+
+  .hero__contact-area {
+    width: 35%;
+    margin: 1em 7em;
+  }
+
+  .hero__contact-area__copy {
+    font-size: 0.8rem;
+    margin-top: 2em;
+  }
+
+  .form-area {
+    width: 90%;
+  }
+
+  .form-area-label {
+    font-size: 0.5rem;
+    margin-bottom: 1.2em;
+  }
+
+  #email1,
+  #email2 {
+    font-size: 0.6rem;
+    padding: 0.6em 1em;
+  }
+
+  .form__contact-btn {
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f2f2f2;
+    background-color: #2d9cdb;
+    margin: 0.2em;
+    padding: 0.5em 1em;
+    border-radius: 0.7em;
+    border: none;
+  }
+
+  .services .title-area,
+  .our-works .title-area {
+    margin: 0 3em 1em;
+  }
+
+  .services .headline,
+  .our-works .headline {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+
+  .services__specializations {
+    display: flex;
+    margin: 1em 3em 1em;
+    padding: 0em;
+  }
+
+  .services__specialization {
+    margin: 0 1em 0 0;
+    width: auto;
+    padding: 2em;
+  }
+
+  .specialization-title {
+    font-size: 1.2em;
+  }
+
+  .services__specialization p {
+    font-size: 0.7rem;
+  }
+
+  .our-works__portfolio {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+  }
+
+  .our-works__portfolio__example {
+    margin-top: 0;
+  }
+
+  .left-portfolio {
+    margin-top: 8em;
+  }
+
+  .see-more-btn {
+    display: block;
+    margin: 0 2em 0 auto;
+    text-align: right;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .team-copy-section {
+    margin-right: 7em;
+  }
+
+  .team-header {
+    font-size: 1.5rem;
+  }
+
+  .team-copy-text {
+    font-size: 0.875rem;
+  }
+
+  .team-gallery-col-1 {
+    width: 45%;
+    margin-left: 2.7em;
+  }
+
+  .testimonials {
+    width: 75%;
+  }
+
+  .testimonials .headline {
+    font-size: 1.5rem;
+  }
+
+  .testimonials__image {
+    width: 15%;
+  }
+
+  .testimonials__person-name {
+    font-size: 1.2rem;
+  }
+
+  .testimonials__person-position {
+    font-size: 0.875rem;
+  }
+
+  .footer-container {
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 1.75em 0.2em;
+  }
+
+  .footer__main {
+    display: flex;
+    justify-content: space-between;
+  }
+}
