@@ -377,6 +377,8 @@ footer {
 
 .nav-link-footer {
   color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .nav-link-footer:hover,
